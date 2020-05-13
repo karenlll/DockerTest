@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockerexample:
+    image: dockerexample
+    build: .
+    ports:
+      - 3001
